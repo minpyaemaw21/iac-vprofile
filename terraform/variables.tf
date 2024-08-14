@@ -10,4 +10,4 @@ variable "clusterName" {
   default     = "vprofile-eks"
 }
 
-#Terraform Version Updated
+#Terraform Version Updated to 1.6.3
