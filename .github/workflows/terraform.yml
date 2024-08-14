@@ -36,7 +36,7 @@ jobs: #like build from jenkins
               uses: actions/checkout@v4 #pre-defined actions stored in the market place
             
             - name: Setup Terraform with specified version on the runner
-              uses: hashicorp/setup-terraform@v2 #action version
+              uses: hashicorp/setup-terraform@v3 #action version
               #with:
                # terraform_version: 1.6.3 #selecting the specific version of terrform, if not select the latest version will be installed
 
