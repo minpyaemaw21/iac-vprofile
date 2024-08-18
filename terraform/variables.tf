@@ -11,4 +11,4 @@ variable "clusterName" {
 }
 
 #Terraform Version Updated to 1.6.3
-#Workflow Trigger Testing 1 (18 Aug 2024)
+#Workflow Trigger Testing 2 (18 Aug 2024)
