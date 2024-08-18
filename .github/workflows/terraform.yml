@@ -26,7 +26,7 @@ jobs: #like build from jenkins
     terraform:
         name: "Apply terraform code changes"
         runs-on: ubuntu-latest #runners, but containers
-        defaults: #what default thing to use when the job is running
+        defaults: #what default thing to use when the job starts running
             run:
                 shell: bash
                 working-directory: ./terraform #run bash shell from tha directory
