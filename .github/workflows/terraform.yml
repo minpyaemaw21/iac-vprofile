@@ -64,7 +64,7 @@ jobs: #like build from jenkins
             - name: Terraform Apply
               id: apple
               if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-              run: terraform apply -auto-approve -input=false -parallelism=1 plainfile #no need to input yes, no input, no parallel run, running the outputs from plainfile
+              run: terraform apply -auto-approve -input=false -parallelism=1 planfile #no need to input yes, no input, no parallel run, running the outputs from plainfile
 
             - name: Configure AWS credentials
               uses: aws-actions/configure-aws-credentials@v1
